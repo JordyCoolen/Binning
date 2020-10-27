@@ -75,8 +75,7 @@ Is currently not working.
 27 October 2020
 
 ## Authors
-J.P.M. Coolen
-D.R. Garza
+J.P.M. Coolen and D.R. Garza
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
