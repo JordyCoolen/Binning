@@ -68,6 +68,7 @@ totalN = number of total negatives in negativelist
 ## Example results
 
 --score 0 (optimal likelihood method)
+
 Result:
 7.68166572381
 {0: (0, 3, 3.2432711510123644, 1.0, 24.0), 
@@ -75,9 +76,11 @@ Result:
 2: (206, 281, 3.9661822146165866, 4354.0, 5572.0)}
 
 plot:
+
 ![alt tag](https://github.com/JordyCoolen/Binning/blob/main/example/example_optimal_likelihood.png)
 
 --score 1 (closest --> 0 <-- method)
+
 Result:
 6.29508337495
 {0: (0, 33, 2.1558083097620244, 1.0, 301.0), 
@@ -86,6 +89,7 @@ Result:
 3: (135, 281, -1.5328328370608006, 2428.0, 5572.0)}
 
 plot:
+
 ![alt tag](https://github.com/JordyCoolen/Binning/blob/main/example/example_closest_to_zero.png)
 
 ## Known problems
