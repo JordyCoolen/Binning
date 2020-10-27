@@ -65,6 +65,29 @@ totalP = number of total postives in positivelist
 N = number of negatives in bin
 totalN = number of total negatives in negativelist
 
+## Example results
+
+--score 0 (optimal likelihood method)
+Result:
+7.68166572381
+{0: (0, 3, 3.2432711510123644, 1.0, 24.0), 
+1: (3, 206, 0.47221235817774987, 24.0, 4354.0), 
+2: (206, 281, 3.9661822146165866, 4354.0, 5572.0)}
+
+plot:
+![alt tag](http://url/to/img.png)
+
+--score 1 (closest --> 0 <-- method)
+Result:
+6.29508337495
+{0: (0, 33, 2.1558083097620244, 1.0, 301.0), 
+1: (33, 104, 0.9917323840163996, 301.0, 1621.0), 
+2: (104, 135, -1.6147098441152086, 1621.0, 2428.0), 
+3: (135, 281, -1.5328328370608006, 2428.0, 5572.0)}
+
+plot:
+![alt tag](http://url/to/img.png)
+
 ## Known problems
 ```python
 --type local
