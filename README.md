@@ -69,37 +69,62 @@ totalN = number of total negatives in negativelist
 
 --score 0 (optimal likelihood method)
 
-Results:
-Overall score = 7.68166572381
 
-binnumber:(indexPN,indexPN,score,leftborder,rightborder)
+Number of Gene/identifiers for the positive and negative set
 
-0: (0, 3, 3.2432711510123644, 1.0, 24.0), 
+totalP 53
+totalN 294
 
-1: (3, 206, 0.47221235817774987, 24.0, 4354.0), 
+Result:
+overall score = 8.13212179365
 
-2: (206, 281, 3.9661822146165866, 4354.0, 5572.0)}
+0: (0, 11, 2.734786296106959, 1.0, 101.0)
 
-plot:
+1: (11, 18, 5.056714390994322, 101.0, 162.0)
 
-![alt tag](https://github.com/JordyCoolen/Binning/blob/main/example/example_optimal_likelihood.png)
+2: (18, 347, 0.3406211065510634, 162.0, 5572.0)
 
---score 1 (closest --> 0 <-- method)
+Number of positive and negatives in optimized bins
 
-Results:
-Overall score = 6.29508337495
+0 pos  6
+0 neg  5
+1 pos  6
+1 neg  1
+2 pos  41
+2 neg  288
 
-binnumber:(indexPN,indexPN,score,leftborder,rightborder)
+plot with the results:
 
-0: (0, 33, 2.1558083097620244, 1.0, 301.0)
+![alt tag](https://github.com/JordyCoolen/Binning/blob/main/example/example_opt_likelihood.png)
 
-1: (33, 104, 0.9917323840163996, 301.0, 1621.0),
+--score 1 (closest to zero --> 0 <--)
 
-2: (104, 135, -1.6147098441152086, 1621.0, 2428.0)
 
-3: (135, 281, -1.5328328370608006, 2428.0, 5572.0)
+Number of Gene/identifiers for the positive and negative set
 
-plot:
+totalP 53
+totalN 294
+
+
+Result:
+overall score = 3.44931450115
+
+0: (0, 104, 1.1009141949048564, 1.0, 1243.0)
+
+1: (104, 173, 0.6237549837182151, 1243.0, 2441.0)
+
+2: (173, 347, -1.7246453225303384, 2441.0, 5572.0)
+
+Number of positive and negatives in optimized bins
+
+0 pos  29
+0 neg  75
+1 pos  15
+1 neg  54
+2 pos  9
+2 neg  165
+
+plot with the results:
 
 ![alt tag](https://github.com/JordyCoolen/Binning/blob/main/example/example_closest_to_zero.png)
 
