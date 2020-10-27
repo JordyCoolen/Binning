@@ -1,0 +1,8 @@
+Parameters
+Namespace(bins=4, data='6.4_WICCA_CoEx.txt', minbinsize=10, negative='N5_2_golden_NEG.txt', output='example_closest_to_zero', positive='P2_2_golden_POS.txt', score=1, type='global')
+Results:
+Positives:53
+Negatives:294
+3.44931450115
+binnumber:(indexPN,indexPN,score,leftborder,rightborder)
+{0: (0, 104, 1.1009141949048564, 1.0, 1243.0), 1: (104, 173, 0.6237549837182151, 1243.0, 2441.0), 2: (173, 347, -1.7246453225303384, 2441.0, 5572.0)}

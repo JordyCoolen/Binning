@@ -1,0 +1,8 @@
+Parameters
+Namespace(bins=4, data='6.4_WICCA_CoEx.txt', minbinsize=10, negative='N5_2_golden_NEG.txt', output='example_opt_likelihood', positive='P2_2_golden_POS.txt', score=0, type='global')
+Results:
+Positives:53
+Negatives:294
+8.13212179365
+binnumber:(indexPN,indexPN,score,leftborder,rightborder)
+{0: (0, 11, 2.734786296106959, 1.0, 101.0), 1: (11, 18, 5.056714390994322, 101.0, 162.0), 2: (18, 347, 0.3406211065510634, 162.0, 5572.0)}
