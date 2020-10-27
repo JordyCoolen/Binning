@@ -75,7 +75,7 @@ Result:
 2: (206, 281, 3.9661822146165866, 4354.0, 5572.0)}
 
 plot:
-![alt tag](http://url/to/img.png)
+![alt tag](https://github.com/JordyCoolen/Binning/blob/main/example/example_optimal_likelihood.png)
 
 --score 1 (closest --> 0 <-- method)
 Result:
@@ -86,7 +86,7 @@ Result:
 3: (135, 281, -1.5328328370608006, 2428.0, 5572.0)}
 
 plot:
-![alt tag](http://url/to/img.png)
+![alt tag](https://github.com/JordyCoolen/Binning/blob/main/example/example_closest_to_zero.png)
 
 ## Known problems
 ```python
