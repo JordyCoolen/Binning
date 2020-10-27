@@ -126,7 +126,7 @@ Number of positive and negatives in optimized bins
 
 plot with the results:
 
-![alt tag](https://github.com/JordyCoolen/Binning/blob/main/example/example_closest_to_zero.png)
+![alt tag](https://github.com/JordyCoolen/Binning/blob/main/example/example_closest_to_zero2.png)
 
 ## Known problems
 ```python
