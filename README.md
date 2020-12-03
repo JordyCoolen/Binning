@@ -82,10 +82,11 @@ totalN = number of total negatives in negativelist
 Number of Gene/identifiers for the positive and negative set
 
 totalP 53
+
 totalN 294
 
-Result:
-overall score = 8.13212179365
+**Result:**
+overall score = **8.13212179365** (this is optimal likelihood method so high overall score)
 
 0: (0, 11, 2.734786296106959, 1.0, 101.0)
 
@@ -113,10 +114,11 @@ plot with the results:
 Number of Gene/identifiers for the positive and negative set
 
 totalP 53
+
 totalN 294
 
-Result:
-overall score = 3.44931450115
+**Result:**
+overall score = **3.44931450115** (this is result of closest to zero --> 0 <--)
 
 0: (0, 104, 1.1009141949048564, 1.0, 1243.0)
 
