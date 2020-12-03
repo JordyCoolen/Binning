@@ -6,7 +6,7 @@ compared to the positive predictive geneset and/or the negative predictive genes
 To have a optimized bayesian integration.
 This script automates the binning by optimizing for a high likelihood score in a automated and systematic way.
 
-# optimalization options
+# Optimalization options
 1) It is possible to optimize on highest likelihood overall bins (--score 0)
 2) Optimize for a total likelihood centered around zero but by having a optimized highest likelihood score per bin (--score 1)
 
@@ -20,32 +20,32 @@ If there are missing values present or there is overlap in identifiers between t
 the program will give a error indicating what the problem is.
 
 ## Algorithm
-                  reads data file
-                        |
-                extract genes and values
-                        |
-                checks double genes
-                        |
-          get genes from positive and negative
-                        |
-            check if genes in positive and negative
-                are present in input data file
-                        |
-           check if there is no overlap between
-               positive and negative list
-                        |
-           sort values while maintaining gene order
-                        |
-              extract sorted genes to list
-                        |
-              extract sorted values to list
-                        |
-              get MIN and MAX values
-                        |
-             set MIN and MAX borders
-                        |
-   sweeps all combinations of each bin and remembers the score
-                        |
+                      reads data file
+                            |
+                    extract genes and values
+                            |
+                    checks double genes
+                            |
+            get genes from positive and negative
+                            |
+             check if genes in positive and negative
+                    are present in input data file
+                            |
+            check if there is no overlap between
+                 positive and negative list
+                            |
+          sort values while maintaining gene order
+                            |
+                extract sorted genes to list
+                            |
+                extract sorted values to list
+                            |
+                  get MIN and MAX values
+                            |
+                 set MIN and MAX borders
+                            |
+      sweeps all combinations of each bin and remembers the score
+                            |
       highest scoring option will be given and plotted
 
 ## Install
