@@ -7,13 +7,13 @@ To have a optimized bayesian integration.
 This script automates the binning by optimizing for a high likelihood score in a automated and systematic way.
 
 # Optimalization options
-1) It is possible to optimize on highest likelihood overall bins (--score 0)
-2) Optimize for a total likelihood centered around zero but by having a optimized highest likelihood score per bin (--score 1)
+1) It is possible to optimize on highest likelihood overall bins **(--score 0)**
+2) Optimize for a total likelihood centered around zero but by having a optimized highest likelihood score per bin **(--score 1)**
 
 Currently, both methodes only apply a global optimalization, which is in most cases the preferred method of optimalization.
 
 The bin borders can be globally optimized for 2,3,4 or 5 bins.
-For optimal results we prefer using (--bins 0) option to let the binning tool calculate the most optimal number of bins and borders (--bins 0).
+For optimal results we prefer using **(--bins 0)** option to let the binning tool calculate the most optimal number of bins and borders **(--bins 0)**.
 
 The binning process uses a negative and postive set of which all identifiers should be present in the dataset. 
 If there are missing values present or there is overlap in identifiers between the negative and positive set 
@@ -63,6 +63,7 @@ python Binning.py -d <datafile> -n <negativelist> -p <positivelist> -o <outputfi
 ```
 
 ## Parameters
+```
 --bins    0: calculates the optimum number of bins with a max of 5 bins, with a high likelihood score (preferred method)
 --bins    2/3/4/5 force the code to optimize for this many bins
 --score   0: |log2((P/totalP)/(N/totalN))| for optimal likelikhood
@@ -72,11 +73,12 @@ P = number of positives in bin
 totalP = number of total postives in positivelist
 N = number of negatives in bin
 totalN = number of total negatives in negativelist
+```
 
 ## Example results
-
+```
 --score 0 (optimal likelihood method)
-
+```
 Number of Gene/identifiers for the positive and negative set
 
 totalP 53
@@ -104,8 +106,9 @@ plot with the results:
 
 ![alt tag](https://github.com/JordyCoolen/Binning/blob/main/example/example_opt_likelihood.png)
 
+```
 --score 1 (closest to zero --> 0 <--)
-
+```
 
 Number of Gene/identifiers for the positive and negative set
 
